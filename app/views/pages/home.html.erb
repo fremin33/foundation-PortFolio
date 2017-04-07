@@ -1,0 +1,46 @@
+<div class="row expanded my-title-bar">
+  <div class="columns small-12 text-center">
+    <p>Fremin Florian</p>
+    <p>Développeur Web</p>
+  </div>
+</div>
+<% if browser.device.mobile? %>
+  <div class="title-bar text-center" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <button class="button secondary" type="button" data-toggle>Menu</button>
+  </div>
+  <div class="top-bar" id="example-menu">
+    <div class="top-bar">
+      <ul class=" medium-horizontal vertical dropdown menu" data-responsive-menu="accordion medium-dropdown">
+        <div class="row">
+          <div class="columns small-12 menu-centered">
+            <div class="menu  icon-top ">
+              <li><a href="#"><i class="l fi-torso"></i> <span>À propos</span></a></li>
+              <li><a href="#"><i class="l fi-web"></i> <span>Compétences</span></a></li>
+              <li><a href="#"><i class="l fi-foot"></i> <span>Parcours</span></a></li>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="columns small-12 menu-centered">
+            <div class="menu  icon-top ">
+              <li><a href="#"><i class="l fi-archive"></i> <span>Réalisations</span></a></li>
+              <li><a href="#"><i class="l fi-mail"></i> <span>Contact</span></a></li>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+<% else %>
+      <div class="row">
+        <div class="columns small-12 menu-centered">
+          <div class="menu  icon-top">
+            <li><a href="#"><i class="l fi-torso"></i> <span>À propos</span></a></li>
+            <li><a href="#"><i class="l fi-web"></i> <span>Compétences</span></a></li>
+            <li><a href="#"><i class="l fi-foot"></i> <span>Parcours</span></a></li>
+            <li><a href="#"><i class="l fi-archive"></i> <span>Réalisations</span></a></li>
+            <li><a href="#"><i class="l fi-mail"></i> <span>Contact</span></a></li>
+          </div>
+        </div>
+      </div>
+<% end %>

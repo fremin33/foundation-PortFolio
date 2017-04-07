@@ -1,0 +1,28 @@
+.top-bar {
+  background-color: #202222;;
+}
+
+.icon-top li > a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.35em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  text-transform: uppercase;
+  font-family: 'Montserrat',serif;
+  color: #F5F5F5;
+  padding: 2.2em 0em 0em 2.2em;
+    &:hover {
+       color: #7E7E7E;
+    }
+  .l {
+    font-size: 2em;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+}

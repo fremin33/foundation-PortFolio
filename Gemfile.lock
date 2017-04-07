@@ -58,6 +58,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    flowtype-rails (1.1.1)
+      railties (>= 3.1)
     foundation-icons-sass-rails (3.0.0)
       railties (>= 3.1.1)
       sass-rails (>= 3.1.1)
@@ -173,6 +175,7 @@ DEPENDENCIES
   browser
   byebug
   coffee-rails (~> 4.2)
+  flowtype-rails
   foundation-icons-sass-rails
   foundation-rails (~> 6.0)
   jbuilder (~> 2.5)

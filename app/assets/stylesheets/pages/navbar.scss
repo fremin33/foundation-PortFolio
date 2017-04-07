@@ -1,6 +1,22 @@
-.top-bar {
-  background-color: #202222;;
+.logo {
+  background: #555D5E;
+  height: 4em;
+  padding-top: 0.5em;
+  p {
+    font-size: 0.6em;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    line-height: 2.5;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    color: #F5F5F5;
+    margin: 0em 12em 0em 12em ;
+    &:first-child {
+      border-bottom: 1px solid;
+    }
+  }
 }
+
 
 .icon-top li > a {
   color: inherit;
@@ -10,11 +26,11 @@
   letter-spacing: 0.25em;
   line-height: 2.5;
   text-transform: uppercase;
-  font-family: 'Montserrat',serif;
-  color: #F5F5F5;
-  padding: 2.2em 0em 0em 2.2em;
+  font-family: 'Roboto',sans-serif;
+  color: #677273;
+  padding: 0;
     &:hover {
-       color: #7E7E7E;
+       color: black;
     }
   .l {
     font-size: 2em;
@@ -23,6 +39,101 @@
 
 
 
+/* Présenation grid */
+  .presentation {
+    background-color: #1A1A1A;
+    margin-bottom: 0.5em;
+    padding: 0.9em 1.3em 0.9em 1.3em;
+   p{
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    font-family: 'Montserrat',serif;
+    color: #F5F5F5;
+   }
+
+}
+
+
+/* A propos grid */
+.title-text {
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  text-transform: uppercase;
+  font-family: 'Montserrat',serif;
+  color: #F5F5F5;
+  padding: 2.2em 0em 0em 2.2em;
+}
+
+
+
+
+.a-propos {
+    padding-top: 0.5em;
+  h1 {
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-family: 'Roboto',sans-serif;
+  color: #677273;
+  text-align: center;
+  }
+  h2 {
+    font-size: 0.4em;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    font-family: 'Roboto',sans-serif;
+    color: #677273;
+    font-style: italic;
+    text-align: center;
+  }
+  p {
+    font-size: 0.4em;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    font-family: 'Roboto',sans-serif;
+    color: #677273;
+  }
+}
+
+       // color: #7E7E7E;
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .presentation {
+    padding-left: 0em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1200px) {
 
 }
+

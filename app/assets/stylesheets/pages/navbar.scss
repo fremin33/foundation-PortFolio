@@ -1,6 +1,7 @@
+
 .logo {
-  background: #555D5E;
-  height: 4em;
+  background: #0B0B0B;
+  height: 6.4em;
   padding-top: 0.5em;
   p {
     font-size: 0.6em;
@@ -17,6 +18,9 @@
   }
 }
 
+.expanded {
+  background-color: #0B0B0B;
+}
 
 .icon-top li > a {
   color: inherit;
@@ -27,13 +31,13 @@
   line-height: 2.5;
   text-transform: uppercase;
   font-family: 'Roboto',sans-serif;
-  color: #677273;
+  color: #ADB1B1;
   padding: 0;
     &:hover {
-       color: black;
+       color: white;
     }
   .l {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 }
 
@@ -69,39 +73,55 @@
   padding: 2.2em 0em 0em 2.2em;
 }
 
-
+.compétences {
+  background-color: #1A1A1A;
+    margin-top: 1em;
+      h1 {
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-family: 'Roboto',sans-serif;
+  color: #fff;
+  text-align: center;
+  padding-top: 1em;
+  }
+}
 
 
 .a-propos {
-    padding-top: 0.5em;
+  background-color: #1A1A1A;
+  margin-top: 1em;
   h1 {
   font-size: 0.6em;
   font-weight: 400;
   letter-spacing: 0.25em;
   text-transform: uppercase;
   font-family: 'Roboto',sans-serif;
-  color: #677273;
+  color: #fff;
   text-align: center;
+  padding-top: 1em;
   }
   h2 {
     font-size: 0.4em;
     font-weight: 400;
     letter-spacing: 0.3em;
     font-family: 'Roboto',sans-serif;
-    color: #677273;
+    color: #fff;
     font-style: italic;
     text-align: center;
+    padding-bottom: 2em;
   }
   p {
-    font-size: 0.4em;
+    font-size: 0.3em;
     font-weight: 400;
     letter-spacing: 0.2em;
     font-family: 'Roboto',sans-serif;
     color: #677273;
+    text-align: justify;
   }
 }
 
-       // color: #7E7E7E;
 
 
 

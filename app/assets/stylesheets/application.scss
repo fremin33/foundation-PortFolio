@@ -1,8 +1,5 @@
 @import 'foundation-icons';
 @import 'foundation_and_overrides';
 @import 'pages/*';
-@import url('https://fonts.googleapis.com/css?family=Play');
-
-body {
-  background-color: #F8F8F8;
-}
+@import "font-awesome-sprockets";
+@import "font-awesome";
